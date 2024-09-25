@@ -8,7 +8,7 @@ class TicTacToe:
         self.window.title("Tic-Tac-Toe")
         self.current_player = "X"
         self.board = [""] * 9
-        self.is_single_player = True  # Flag to determine if it's a single-player game
+        self.is_single_player = False  # Flag to determine if it's a single-player game
 
         # Create buttons for the game board
         self.buttons = []
